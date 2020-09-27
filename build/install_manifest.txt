@@ -1,0 +1,11 @@
+/usr/local/lib/libDate.a
+/usr/local/include/Date/Date.hpp
+/usr/local/include/Date/Day.hpp
+/usr/local/include/Date/Hour.hpp
+/usr/local/include/Date/Minute.hpp
+/usr/local/include/Date/Month.hpp
+/usr/local/include/Date/Second.hpp
+/usr/local/include/Date/Year.hpp
+/usr/local/lib/cmake/Date/DateTargets.cmake
+/usr/local/lib/cmake/Date/DateTargets-noconfig.cmake
+/usr/local/lib/cmake/Date/DateConfig.cmake

@@ -1,0 +1,7 @@
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/install/local.dir
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/install/strip.dir
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/install.dir
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/list_install_components.dir
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/rebuild_cache.dir
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/edit_cache.dir
+/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir
