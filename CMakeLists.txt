@@ -20,7 +20,7 @@ target_include_directories(${PROJECT_NAME}
     $<INSTALL_INTERFACE:include>
 )
 
-target_precompile_headers(${PROJECT_NAME} PUBLIC src/precompiledHeaders.pch)
+target_precompile_headers(${PROJECT_NAME} PRIVATE src/precompiledHeaders.pch)
 
 
 
