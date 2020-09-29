@@ -1,5 +1,5 @@
 #include "Day.hpp"
-using namespace std;
+
 
 Day::Day() : Day([]{
       std::chrono::time_point<std::chrono::system_clock> time_now = std::chrono::system_clock::now();

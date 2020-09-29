@@ -1,4 +1,8 @@
 #pragma once
+#include <iostream>
+#include <chrono>
+using namespace std;
+using namespace std::chrono;
 
 class Minute{
       int m_Minute;

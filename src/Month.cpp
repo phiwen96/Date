@@ -1,5 +1,5 @@
 #include "Month.hpp"
-using namespace std;
+
 
 Month::Month() : Month([]{
       std::chrono::time_point<std::chrono::system_clock> time_now = std::chrono::system_clock::now();

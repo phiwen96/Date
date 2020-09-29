@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pw/Documents/GitHub/weatherApi/external/Date
+CMAKE_SOURCE_DIR = /Users/pw/Documents/GitHub/Date
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pw/Documents/GitHub/weatherApi/external/Date/build
+CMAKE_BINARY_DIR = /Users/pw/Documents/GitHub/Date/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Date.dir/depend.make
@@ -79,121 +79,121 @@ include CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/cmake_pch.hxx.pch: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/cmake_pch.hxx.pch: CMakeFiles/Date.dir/cmake_pch.hxx.cxx
 CMakeFiles/Date.dir/cmake_pch.hxx.pch: CMakeFiles/Date.dir/cmake_pch.hxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Date.dir/cmake_pch.hxx.pch"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -x c++-header -o CMakeFiles/Date.dir/cmake_pch.hxx.pch -c /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Date.dir/cmake_pch.hxx.pch"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -x c++-header -o CMakeFiles/Date.dir/cmake_pch.hxx.pch -c /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.cxx
 
 CMakeFiles/Date.dir/cmake_pch.hxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/cmake_pch.hxx.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -x c++-header -E /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.cxx > CMakeFiles/Date.dir/cmake_pch.hxx.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -x c++-header -E /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.cxx > CMakeFiles/Date.dir/cmake_pch.hxx.i
 
 CMakeFiles/Date.dir/cmake_pch.hxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/cmake_pch.hxx.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -x c++-header -S /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.cxx -o CMakeFiles/Date.dir/cmake_pch.hxx.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -x c++-header -S /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.cxx -o CMakeFiles/Date.dir/cmake_pch.hxx.s
 
 CMakeFiles/Date.dir/src/Date.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Date.cpp.o: ../src/Date.cpp
 CMakeFiles/Date.dir/src/Date.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Date.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Date.dir/src/Date.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Date.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Date.dir/src/Date.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Date.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Date.cpp
 
 CMakeFiles/Date.dir/src/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Date.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Date.cpp > CMakeFiles/Date.dir/src/Date.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Date.cpp > CMakeFiles/Date.dir/src/Date.cpp.i
 
 CMakeFiles/Date.dir/src/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Date.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Date.cpp -o CMakeFiles/Date.dir/src/Date.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Date.cpp -o CMakeFiles/Date.dir/src/Date.cpp.s
 
 CMakeFiles/Date.dir/src/Day.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Day.cpp.o: ../src/Day.cpp
 CMakeFiles/Date.dir/src/Day.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Day.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Date.dir/src/Day.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Day.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Day.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Date.dir/src/Day.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Day.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Day.cpp
 
 CMakeFiles/Date.dir/src/Day.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Day.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Day.cpp > CMakeFiles/Date.dir/src/Day.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Day.cpp > CMakeFiles/Date.dir/src/Day.cpp.i
 
 CMakeFiles/Date.dir/src/Day.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Day.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Day.cpp -o CMakeFiles/Date.dir/src/Day.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Day.cpp -o CMakeFiles/Date.dir/src/Day.cpp.s
 
 CMakeFiles/Date.dir/src/Hour.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Hour.cpp.o: ../src/Hour.cpp
 CMakeFiles/Date.dir/src/Hour.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Hour.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Date.dir/src/Hour.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Hour.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Hour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Date.dir/src/Hour.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Hour.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Hour.cpp
 
 CMakeFiles/Date.dir/src/Hour.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Hour.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Hour.cpp > CMakeFiles/Date.dir/src/Hour.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Hour.cpp > CMakeFiles/Date.dir/src/Hour.cpp.i
 
 CMakeFiles/Date.dir/src/Hour.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Hour.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Hour.cpp -o CMakeFiles/Date.dir/src/Hour.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Hour.cpp -o CMakeFiles/Date.dir/src/Hour.cpp.s
 
 CMakeFiles/Date.dir/src/Minute.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Minute.cpp.o: ../src/Minute.cpp
 CMakeFiles/Date.dir/src/Minute.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Minute.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Date.dir/src/Minute.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Minute.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Minute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Date.dir/src/Minute.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Minute.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Minute.cpp
 
 CMakeFiles/Date.dir/src/Minute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Minute.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Minute.cpp > CMakeFiles/Date.dir/src/Minute.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Minute.cpp > CMakeFiles/Date.dir/src/Minute.cpp.i
 
 CMakeFiles/Date.dir/src/Minute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Minute.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Minute.cpp -o CMakeFiles/Date.dir/src/Minute.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Minute.cpp -o CMakeFiles/Date.dir/src/Minute.cpp.s
 
 CMakeFiles/Date.dir/src/Month.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Month.cpp.o: ../src/Month.cpp
 CMakeFiles/Date.dir/src/Month.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Month.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Date.dir/src/Month.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Month.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Month.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Date.dir/src/Month.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Month.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Month.cpp
 
 CMakeFiles/Date.dir/src/Month.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Month.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Month.cpp > CMakeFiles/Date.dir/src/Month.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Month.cpp > CMakeFiles/Date.dir/src/Month.cpp.i
 
 CMakeFiles/Date.dir/src/Month.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Month.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Month.cpp -o CMakeFiles/Date.dir/src/Month.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Month.cpp -o CMakeFiles/Date.dir/src/Month.cpp.s
 
 CMakeFiles/Date.dir/src/Second.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Second.cpp.o: ../src/Second.cpp
 CMakeFiles/Date.dir/src/Second.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Second.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Date.dir/src/Second.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Second.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Second.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Date.dir/src/Second.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Second.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Second.cpp
 
 CMakeFiles/Date.dir/src/Second.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Second.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Second.cpp > CMakeFiles/Date.dir/src/Second.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Second.cpp > CMakeFiles/Date.dir/src/Second.cpp.i
 
 CMakeFiles/Date.dir/src/Second.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Second.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Second.cpp -o CMakeFiles/Date.dir/src/Second.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Second.cpp -o CMakeFiles/Date.dir/src/Second.cpp.s
 
 CMakeFiles/Date.dir/src/Year.cpp.o: CMakeFiles/Date.dir/flags.make
 CMakeFiles/Date.dir/src/Year.cpp.o: ../src/Year.cpp
 CMakeFiles/Date.dir/src/Year.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx
 CMakeFiles/Date.dir/src/Year.cpp.o: CMakeFiles/Date.dir/cmake_pch.hxx.pch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Date.dir/src/Year.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Year.cpp.o -c /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Year.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Date.dir/src/Year.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -o CMakeFiles/Date.dir/src/Year.cpp.o -c /Users/pw/Documents/GitHub/Date/src/Year.cpp
 
 CMakeFiles/Date.dir/src/Year.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Date.dir/src/Year.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Year.cpp > CMakeFiles/Date.dir/src/Year.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -E /Users/pw/Documents/GitHub/Date/src/Year.cpp > CMakeFiles/Date.dir/src/Year.cpp.i
 
 CMakeFiles/Date.dir/src/Year.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Date.dir/src/Year.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/weatherApi/external/Date/src/Year.cpp -o CMakeFiles/Date.dir/src/Year.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -Xclang -include-pch -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/cmake_pch.hxx -S /Users/pw/Documents/GitHub/Date/src/Year.cpp -o CMakeFiles/Date.dir/src/Year.cpp.s
 
 # Object files for target Date
 Date_OBJECTS = \
@@ -218,7 +218,7 @@ libDate.a: CMakeFiles/Date.dir/src/Second.cpp.o
 libDate.a: CMakeFiles/Date.dir/src/Year.cpp.o
 libDate.a: CMakeFiles/Date.dir/build.make
 libDate.a: CMakeFiles/Date.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libDate.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/pw/Documents/GitHub/Date/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libDate.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Date.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Date.dir/link.txt --verbose=$(VERBOSE)
 
@@ -232,6 +232,6 @@ CMakeFiles/Date.dir/clean:
 .PHONY : CMakeFiles/Date.dir/clean
 
 CMakeFiles/Date.dir/depend:
-	cd /Users/pw/Documents/GitHub/weatherApi/external/Date/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pw/Documents/GitHub/weatherApi/external/Date /Users/pw/Documents/GitHub/weatherApi/external/Date /Users/pw/Documents/GitHub/weatherApi/external/Date/build /Users/pw/Documents/GitHub/weatherApi/external/Date/build /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Date.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/pw/Documents/GitHub/Date/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/pw/Documents/GitHub/Date /Users/pw/Documents/GitHub/Date /Users/pw/Documents/GitHub/Date/build /Users/pw/Documents/GitHub/Date/build /Users/pw/Documents/GitHub/Date/build/CMakeFiles/Date.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Date.dir/depend
 

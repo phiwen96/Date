@@ -1,4 +1,8 @@
 #pragma once
+#include <iostream>
+#include <chrono>
+using namespace std;
+using namespace std::chrono;
 
 #include "Year.hpp"
 #include "Month.hpp"
@@ -20,6 +24,7 @@ public:
       
       void update();
       
+      Date(int year, int month, int day, int hour, int minute, int second);
       Date();
       Date(Date&& other);
       Date(const Date& other);

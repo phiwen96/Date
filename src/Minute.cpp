@@ -1,5 +1,5 @@
 #include "Minute.hpp"
-using namespace std;
+
 
 Minute::Minute() : Minute([]{
       std::chrono::time_point<std::chrono::system_clock> time_now = std::chrono::system_clock::now();

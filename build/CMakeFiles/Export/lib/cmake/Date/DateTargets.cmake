@@ -55,7 +55,6 @@ add_library(Date STATIC IMPORTED)
 
 set_target_properties(Date PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_PRECOMPILE_HEADERS "/Users/pw/Documents/GitHub/weatherApi/external/Date/src/precompiledHeaders.pch"
 )
 
 # Load information for each installed configuration.

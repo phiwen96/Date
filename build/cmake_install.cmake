@@ -1,4 +1,4 @@
-# Install script for directory: /Users/pw/Documents/GitHub/weatherApi/external/Date
+# Install script for directory: /Users/pw/Documents/GitHub/Date
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/libDate.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/pw/Documents/GitHub/Date/build/libDate.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libDate.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libDate.a")
     execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libDate.a")
@@ -47,13 +47,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Date" TYPE FILE FILES
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Date.hpp"
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Day.hpp"
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Hour.hpp"
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Minute.hpp"
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Month.hpp"
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Second.hpp"
-    "/Users/pw/Documents/GitHub/weatherApi/external/Date/include/Year.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Date.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Day.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Hour.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Minute.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Month.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Second.hpp"
+    "/Users/pw/Documents/GitHub/Date/include/Year.hpp"
     )
 endif()
 
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Date/DateTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Date/DateTargets.cmake"
-         "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Export/lib/cmake/Date/DateTargets.cmake")
+         "/Users/pw/Documents/GitHub/Date/build/CMakeFiles/Export/lib/cmake/Date/DateTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/Date/DateTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -70,14 +70,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Date" TYPE FILE FILES "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Export/lib/cmake/Date/DateTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Date" TYPE FILE FILES "/Users/pw/Documents/GitHub/Date/build/CMakeFiles/Export/lib/cmake/Date/DateTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Date" TYPE FILE FILES "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles/Export/lib/cmake/Date/DateTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Date" TYPE FILE FILES "/Users/pw/Documents/GitHub/Date/build/CMakeFiles/Export/lib/cmake/Date/DateTargets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Date" TYPE FILE FILES "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/DateConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Date" TYPE FILE FILES "/Users/pw/Documents/GitHub/Date/build/DateConfig.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -88,5 +88,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/pw/Documents/GitHub/Date/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

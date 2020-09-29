@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pw/Documents/GitHub/weatherApi/external/Date
+CMAKE_SOURCE_DIR = /Users/pw/Documents/GitHub/Date
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pw/Documents/GitHub/weatherApi/external/Date/build
+CMAKE_BINARY_DIR = /Users/pw/Documents/GitHub/Date/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles /Users/pw/Documents/GitHub/weatherApi/external/Date/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pw/Documents/GitHub/Date/build/CMakeFiles /Users/pw/Documents/GitHub/Date/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pw/Documents/GitHub/weatherApi/external/Date/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pw/Documents/GitHub/Date/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

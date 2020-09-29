@@ -1,5 +1,5 @@
 #include "Date.hpp"
-using namespace std;
+
 
 
 
@@ -31,6 +31,11 @@ void Date::update(){
       m_Hour.update(now_tm);
       m_Minute.update(now_tm);
       m_Second.update(now_tm);
+}
+
+Date::Date(int year, int month, int day, int hour, int minute, int second) : m_Year(year), m_Month(month), m_Day(day), m_Hour(hour), m_Minute(minute), m_Second(second)
+{
+
 }
 
 Date::Date() : Date([]{

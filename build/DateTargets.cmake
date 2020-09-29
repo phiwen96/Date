@@ -45,15 +45,14 @@ unset(_expectedTargets)
 add_library(Date STATIC IMPORTED)
 
 set_target_properties(Date PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/pw/Documents/GitHub/weatherApi/external/Date"
-  INTERFACE_PRECOMPILE_HEADERS "/Users/pw/Documents/GitHub/weatherApi/external/Date/src/precompiledHeaders.pch"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/pw/Documents/GitHub/Date"
 )
 
 # Import target "Date" for configuration ""
 set_property(TARGET Date APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(Date PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "/Users/pw/Documents/GitHub/weatherApi/external/Date/build/libDate.a"
+  IMPORTED_LOCATION_NOCONFIG "/Users/pw/Documents/GitHub/Date/build/libDate.a"
   )
 
 # This file does not depend on other imported targets which have
